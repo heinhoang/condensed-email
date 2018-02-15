@@ -10,3 +10,6 @@ Condensed Email is a front-end email app using ReactJs to create a dashboard in 
 - **containers:** Contains all smart components. Containers contains **components**
 - **components:** Contains all normal components
 
+### Notes
+- We're using [React Font Awesome 5](https://github.com/FortAwesome/react-fontawesome)
+

@@ -1,0 +1,18 @@
+/*!
+ * Overide Bootstrap styles and other third parties here
+ */
+
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap source files
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Override core variables
+@import "core-variables";
+
+// Import core styles
+// @import "core/core";
+
+// Custom styles
+@import "custom";
