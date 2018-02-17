@@ -19,30 +19,30 @@ const Layout = ({ children }) => {
         }
     });
     return (
-        <div className="app">
+        <div className="l-app">
             {
                 lHeader.length > 0 &&
-                <header className="header">
+                <header className="l-header">
                     {lHeader}
                 </header>
             }
-            <div className="app-body">
+            <div className="l-body">
                 {
                     lSidebar.length > 0 &&
-                    <aside className="sidebar">
+                    <aside className="l-sidebar">
                         {lSidebar}
                     </aside>
                 }
                 {
                     lMain.length > 0 &&
-                    <main className="main">
+                    <main className="l-main">
                         {lMain}
                     </main>
                 }
             </div>
             {
                 lFooter.length > 0 &&
-                <footer className="footer">
+                <footer className="l-footer">
                     {lFooter}
                 </footer>
             }

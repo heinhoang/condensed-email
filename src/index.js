@@ -7,7 +7,8 @@ import registerServiceWorker from './registerServiceWorker';
 import {
     faGlobe,
     faEdit,
-    faToggleOff
+    faToggleOff,
+    faSearch
 } from '@fortawesome/fontawesome-free-solid'
 import fontawesome from '@fortawesome/fontawesome'
 import './scss/style.css';
@@ -17,7 +18,8 @@ import './scss/style.css';
 fontawesome.library.add(
     faGlobe,
     faEdit,
-    faToggleOff
+    faToggleOff,
+    faSearch
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));

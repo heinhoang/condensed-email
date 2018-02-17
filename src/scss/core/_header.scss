@@ -1,0 +1,39 @@
+.logoImg {
+    width: 50px;
+}
+
+.main-navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.inner-navbar {
+    &__brand {
+        padding: 0 90px;
+    }
+    &__profile-thumb {
+        margin-left: auto;
+    }
+    &__navbar {
+        padding: 0 20px;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        >.nav-item:last-child {
+            margin-left: 14px;
+        }
+        .nav-link {
+            padding: 0;
+        }
+    }
+    &__search {
+        padding: 0 14px;
+    }
+}
+
+.profile-thumb {
+    &__img {
+        margin: auto 14px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+    }
+}

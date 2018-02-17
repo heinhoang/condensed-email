@@ -2,17 +2,20 @@
  * Overide Bootstrap styles and other third parties here
  */
 
-// Override Boostrap variables
+// Override Boostrap variables (for end user)
 @import "bootstrap-variables";
+
+// Override core variables (for end user)
+@import "core-variables";
+
+// Import core variables
+@import "core/variables";
 
 // Import Bootstrap source files
 @import "node_modules/bootstrap/scss/bootstrap";
 
-// Override core variables
-@import "core-variables";
+// Import core styles (overide bootstrap style)
+@import "core/core.scss";
 
-// Import core styles
-// @import "core/core";
-
-// Custom styles
+// Custom styles (overide core style) (for end user)
 @import "custom";

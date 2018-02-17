@@ -1,0 +1,29 @@
+.logoImg {
+  width: 50px; }
+
+.main-navbar {
+  border-bottom: 1px solid #eee; }
+
+.inner-navbar__brand {
+  padding: 0 90px; }
+
+.inner-navbar__profile-thumb {
+  margin-left: auto; }
+
+.inner-navbar__navbar {
+  padding: 0 20px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd; }
+  .inner-navbar__navbar > .nav-item:last-child {
+    margin-left: 14px; }
+  .inner-navbar__navbar .nav-link {
+    padding: 0; }
+
+.inner-navbar__search {
+  padding: 0 14px; }
+
+.profile-thumb__img {
+  margin: auto 14px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%; }
