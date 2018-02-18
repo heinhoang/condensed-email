@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /mock-server/node_modules
+/mock-api/db.json
 
 # testing
 /coverage
