@@ -1,5 +1,5 @@
 Condensed Email is a front-end email app using ReactJs to create a dashboard in that user can view all their mail inbox.
-Tech we are using: NodeJS, ReactJS, redux, redux saga
+Tech we are using: NodeJS, ReactJS, redux, redux saga, es6
 
 ## Prerequisites
 - You have to install nodeJS on your machine
