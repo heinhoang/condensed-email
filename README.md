@@ -31,8 +31,13 @@ Run mock:
 
 Our mock api server will run at: `http://localhost:3001`
 
+## Testing
+We use e2e testing and unit testing
+
 ## Notes
 - We're using [React Font Awesome 5](https://github.com/FortAwesome/react-fontawesome)
 
 ## Credits
 - [Cloned theme](http://pages.revox.io/dashboard/3.0.0/html/condensed/email.html)
+- [Testing tutorial](https://hackernoon.com/a-guide-to-tdd-a-react-redux-todolist-app-part-1-b8a200bb7091)
+- [Steps to make unit test](https://codeutopia.net/blog/2016/10/10/5-step-method-to-make-test-driven-development-and-unit-testing-easy/)
