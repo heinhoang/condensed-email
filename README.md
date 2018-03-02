@@ -5,6 +5,10 @@ Tech we are using: NodeJS, ReactJS, redux, redux saga, es6
 - You have to install nodeJS on your machine
 - Install json server globally `npm install -g json-server`
 
+## Getting Started
+We use `create-react-app` with some twist in package.json.
+To start development just run `npm start`
+
 ## Structure
 - **index.js:** Our entry point
 - **app.js:** Our main app. It utilize react router to navigate to pages
