@@ -7,7 +7,9 @@ Tech we are using: NodeJS, ReactJS, redux, redux saga, es6
 
 ## Getting Started
 We use `create-react-app` with some twist in package.json.
-To start development just run `npm start`
+- To start development just run `npm start`. This command also start json server.
+- To run unit test `npm run test`
+- To run e2e test `npm run e2e` or `npm run e2e-watch`
 
 ## Structure
 - **index.js:** Our entry point
@@ -33,6 +35,18 @@ Our mock api server will run at: `http://localhost:3001`
 
 ## Testing
 We use e2e testing and unit testing
+- unit testing using Jest
+- e2e testing using: 
+  + selenium letting us fire up a browser
+  + webdriverIO controlling it
+  + chai granting us assertions
+**Usage:**
+```bash
+npm run selenium-setup   // run only once
+npm run selenium-start   // app must also be started with npm start
+npm run e2e
+npm run e2e-watch  // if you want to run e2e in watch mode
+```
 
 ## Notes
 - We're using [React Font Awesome 5](https://github.com/FortAwesome/react-fontawesome)
