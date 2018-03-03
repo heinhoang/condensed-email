@@ -15,6 +15,7 @@
     "reactstrap": "^5.0.0-beta"
   },
   "scripts": {
+    "eslint": "eslint --ext .js,.jsx src",
     "selenium-setup": "selenium-standalone install",
     "selenium-start": "selenium-standalone start",
     "e2e": "wdio wdio.conf.js",
