@@ -27,7 +27,7 @@
     "start-js": "react-scripts start",
     "start": "concurrently -k \"npm run generate-mock\" \"npm run start-mockserver\" \"npm run watch-css\" \"npm run start-js\"",
     "build": "npm run build-css && react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "concurrently -k \"npm run e2e\" \"react-scripts test --env=jsdom\"",
     "eject": "react-scripts eject"
   },
   "devDependencies": {

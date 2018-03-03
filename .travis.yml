@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+scripts:
+- npm test
+- npm run build
+deploy:
+  skip_cleanup: true
+  local_dir: build
+  app: condensed-email
+  on:
+    branch: master
+  api_key:
+    secure: fRg2qyZ1H+dmR8pFfUKBOFhZaaU16W+ptLmhbLXZl2UDv5mVsfUffFPih4wKz2YM6Ag2b2itv4adwKm9by8WlgCk3ZSSBYFKqV1w1dTCRMvb90QkhTRZ/nQJI7+7YHRDoymGPscAnNn0KFQxlORLbCLHSAeD291lhei2b2StGp86uL/hAL4kcUoK2J7YLAspLQPGuuF7SsHbogbdOcJYTUeqymjWCEuUX8poNcwIvLzEaY3fJjK+AYSExYLbqfj/Fg5U6BrW02oYoPbUg7fFuDXF72puBfH+bvDzziClfwKNpewft6ZvTM7PMTBL/ECp+4eaVZkZvVmxCIVQmLYUAkA4i1BcrNQLN2Lv9j+x7QHjqUl8apCjQR8Nmd9q/yJO5wUQOnBVNwAgDfr8ZHichB9gVPdrXyFl+0A7pc9e5IilHA6GiBSAc9AG+mqPa9SRrRQIS6bhjnp3LPNlE53adH8JiD71gO9Od1RxVatt3J7+GL/6Wj9CE1GApFiqUnTEgsgVbp24y+iCAsS+1X7jHrf4AgTdB4Tw9qj/4XCwbBuwyK3UOVCHxIlx8gZlFcgdASH0dXiRl2k0w+89sNkPGEK0qPKXiXXowSsftiYW735bf4X1YLjYtG8yGobk4HYgShIiFJ5GrvNEWM44MTw/ippmYe0Ptrk0+IHYspK6xpc=
