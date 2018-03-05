@@ -12,6 +12,7 @@ before_install:
 before_script:
 # setup and start the selenium server
 - npm run selenium-setup
+- npm run selenium-start
 scripts:
 - npm run eslint
 - npm test
