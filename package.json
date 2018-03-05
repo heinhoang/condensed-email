@@ -17,7 +17,7 @@
   "scripts": {
     "eslint": "eslint --ext .js,.jsx src",
     "selenium-setup": "selenium-standalone install",
-    "selenium-start": "selenium-standalone start",
+    "selenium-start": "selenium-standalone start > /dev/null 2>&1 &",
     "e2e": "wdio wdio.conf.js",
     "e2e-watch": "wdio wdio.conf.js --watch",
     "test-e2e": "mocha --require babel-core/register --timeout 15000 ./e2e/server.js ./e2e/tests/*.js",
@@ -29,7 +29,7 @@
     "start-js": "react-scripts start",
     "start": "concurrently -k \"npm run generate-mock\" \"npm run start-mockserver\" \"npm run watch-css\" \"npm run start-js\"",
     "build": "npm run build-css && react-scripts build",
-    "test": "concurrently -k \"npm run e2e\" \"react-scripts test --env=jsdom\"",
+    "test": "concurrently -k \"npm run selenium-start\" \"npm run e2e\" \"react-scripts test --env=jsdom\"",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
