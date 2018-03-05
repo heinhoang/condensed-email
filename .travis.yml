@@ -1,9 +1,14 @@
 language: node_js
+sudo: required
 node_js:
 - stable
 cache:
   directories:
   - node_modules
+addons:
+  chrome: stable
+before_install:
+  - sudo apt-get install default-jre
 before_script:
 # setup and start the selenium server
 - npm run selenium-setup
